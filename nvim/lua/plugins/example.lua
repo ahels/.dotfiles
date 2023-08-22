@@ -54,6 +54,29 @@ if true then
         },
       },
     },
+
+    -- colorizer
+    {
+      "NvChad/nvim-colorizer.lua",
+    },
+
+    -- notifications (disable on start)
+    {
+      "rcarriga/nvim-notify",
+      opts = {
+          -- LEVELS:
+          --DEBUG = 1,
+          --ERROR = 4,
+          --INFO = 2,
+          --OFF = 5,
+          --TRACE = 0,
+          --WARN = 3
+         level = 5,
+         render = "minimal",
+         stages = "static",
+      },
+    }
+
   }
 end
 
