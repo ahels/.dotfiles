@@ -16,7 +16,8 @@
 - GUI File Manager:
     + Thunar
 - TTY File Manager: Ranger
-- Themes: Gruvbox Material
+- Theme: Gruvbox Material
+- GTK Theme: Gruvbox hard
 - Icons: papirus Icons
 - Gtk appearance: nwg-look-bin
 - Wallpaper tool: hyprpaper
